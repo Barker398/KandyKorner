@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Jolly Ranchers",
+            "price": 5.25,
+            "productTypeId": 1
+
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "387 S Ridge Drive",
+            "squareFootage": "1209",
+            "handicap": "true"
+        },
+        {
+            "id": 2,
+            "address": "557 Turtle Way",
+            "squareFootage": "864",
+            "handicap": "true"
+        },
+        {
+            "id": 3,
+            "address": "9008",
+            "squareFootage": "1722",
+            "handicap": "false"
+        }
+    ],
+    "employees": [
+
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "productCatagory": "Hard candy" 
+        },
+        {
+            "id": 2,
+            "productCatagory": "Gum" 
+        },
+        {
+            "id": 3,
+            "productCatagory": "Sodas" 
+        }
+    ],
+    "customers": [
+
+    ]
+        
+    }
