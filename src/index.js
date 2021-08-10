@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Location } from "./components/Location"
+import { Router } from 'react-router-dom';
+import { KandyKorner } from './components/KandyKorner';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Location />
+    <Router>
+    <KandyKorner />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

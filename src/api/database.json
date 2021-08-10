@@ -5,7 +5,18 @@
             "productName": "Jolly Ranchers",
             "price": 5.25,
             "productTypeId": 1
-
+        },
+        {
+            "id": 2,
+            "productName": "Coca Cola",
+            "price": 7.25,
+            "productTypeId": 3 
+        },
+        {
+            "id": 3,
+            "productName": "Bazooka",
+            "price": 3.00,
+            "productTypeId": 2
         }
     ],
     "locations": [
@@ -23,7 +34,7 @@
         },
         {
             "id": 3,
-            "address": "9008",
+            "address": "9008 Legion Road",
             "squareFootage": "1722",
             "handicap": "false"
         }
