@@ -1,63 +1,126 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "productName": "Jolly Ranchers",
-            "price": 5.25,
-            "productTypeId": 1
-        },
-        {
-            "id": 2,
-            "productName": "Coca Cola",
-            "price": 7.25,
-            "productTypeId": 3 
-        },
-        {
-            "id": 3,
-            "productName": "Bazooka",
-            "price": 3.00,
-            "productTypeId": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "387 S Ridge Drive",
-            "squareFootage": "1209",
-            "handicap": "true"
-        },
-        {
-            "id": 2,
-            "address": "557 Turtle Way",
-            "squareFootage": "864",
-            "handicap": "true"
-        },
-        {
-            "id": 3,
-            "address": "9008 Legion Road",
-            "squareFootage": "1722",
-            "handicap": "false"
-        }
-    ],
-    "employees": [
-
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "productCatagory": "Hard candy" 
-        },
-        {
-            "id": 2,
-            "productCatagory": "Gum" 
-        },
-        {
-            "id": 3,
-            "productCatagory": "Sodas" 
-        }
-    ],
-    "customers": [
-
-    ]
-        
+  "products": [
+    {
+      "id": 1,
+      "productName": "Jolly Ranchers",
+      "price": 5.25,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "productName": "Coca Cola",
+      "price": 7.25,
+      "productTypeId": 3
+    },
+    {
+      "id": 3,
+      "productName": "Bazooka",
+      "price": 3,
+      "productTypeId": 2
     }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "387 S Ridge Drive",
+      "squareFootage": "1209",
+      "handicap": "true"
+    },
+    {
+      "id": 2,
+      "address": "557 Turtle Way",
+      "squareFootage": "864",
+      "handicap": "true"
+    },
+    {
+      "id": 3,
+      "address": "9008 Legion Road",
+      "squareFootage": "1722",
+      "handicap": "false"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Izzie Barker",
+      "locationId": 1,
+      "manager": true,
+      "fullTime": false,
+      "hourlyRate": 17
+    },
+    {
+      "name": "Sam Barker",
+      "locationId": 1,
+      "id": 2
+    },
+    {
+      "name": "Melody Barker",
+      "locationId": 2,
+      "id": 3
+    },
+    {
+      "name": "Bob Bubbles",
+      "locationId": 3,
+      "manager": "",
+      "fulltime": "",
+      "hourlyRate": "",
+      "id": 4
+    },
+    {
+      "name": "Melody Barker",
+      "locationId": 3,
+      "manager": "True",
+      "fulltime": "",
+      "hourlyRate": "",
+      "id": 5
+    },
+    {
+      "name": "John Doe",
+      "locationId": 1,
+      "manager": "False",
+      "fulltime": "",
+      "hourlyRate": "23.00",
+      "id": 6
+    },
+    {
+      "name": "Sam Barker",
+      "locationId": 2,
+      "manager": "True",
+      "fulltime": "",
+      "hourlyRate": "23.00",
+      "id": 7
+    },
+    {
+      "name": "Sam Barker",
+      "locationId": 1,
+      "manager": "True",
+      "fulltime": "",
+      "hourlyRate": "23.00",
+      "id": 8
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "productCatagory": "Hard candy"
+    },
+    {
+      "id": 2,
+      "productCatagory": "Gum"
+    },
+    {
+      "id": 3,
+      "productCatagory": "Sodas"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Grace Barker"
+    },
+    {
+      "id": 2,
+      "name": "John Johnson"
+    }
+  ]
+}
