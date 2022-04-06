@@ -49,54 +49,28 @@
       "hourlyRate": 17
     },
     {
-      "name": "Sam Barker",
-      "locationId": 1,
+      "name": "Tom Jenkins",
+      "locationId": 2,
+      "manager": "True",
+      "fulltime": "",
+      "hourlyRate": "23.00",
       "id": 2
     },
     {
-      "name": "Melody Barker",
+      "name": "Faith Barker",
       "locationId": 2,
+      "manager": "True",
+      "fulltime": "",
+      "hourlyRate": "23.00",
       "id": 3
     },
     {
-      "name": "Bob Bubbles",
-      "locationId": 3,
-      "manager": "",
-      "fulltime": "",
-      "hourlyRate": "",
-      "id": 4
-    },
-    {
-      "name": "Melody Barker",
-      "locationId": 3,
-      "manager": "True",
-      "fulltime": "",
-      "hourlyRate": "",
-      "id": 5
-    },
-    {
-      "name": "John Doe",
-      "locationId": 1,
+      "name": "Kaylis ",
+      "locationId": 2,
       "manager": "False",
       "fulltime": "",
       "hourlyRate": "23.00",
-      "id": 6
-    },
-    {
-      "name": "Sam Barker",
-      "locationId": 2,
-      "manager": "True",
-      "fulltime": "",
-      "hourlyRate": "23.00",
-      "id": 7
-    },
-    {
-      "name": "Sam Barker",
-      "locationId": 1,
-      "manager": "True",
-      "fulltime": "",
-      "hourlyRate": "23.00",
-      "id": 8
+      "id": 4
     }
   ],
   "productTypes": [

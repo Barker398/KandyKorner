@@ -39,9 +39,10 @@ export const EmployeeList = () => {
                         <div className="employee__hours">
                             Schedule: { employee.fullTime }
                         </div>
-                        <div className="employee_hourlyRate">
+                        <div className="employee__hourlyRate">
                             Hourly rate: { employee.hourlyRate }
                         </div>
+                        <button>FIRE EMPLOYEE</button>
                         </div>
                     )
                 })

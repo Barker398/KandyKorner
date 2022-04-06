@@ -9,6 +9,7 @@ import { CustomerProvider } from "./Customers/CustomerProvider"
 import { EmployeeProvider } from "./Employees/EmployeeProvider"
 import { EmployeeList } from "./Employees/EmployeeList"
 import { EmployeeForm } from "./Employees/EmployeeForm"
+import { EmployeeDetail } from "./Employees/EmployeeDetail"
 
 export const ApplicationViews = () => {
     return (
@@ -18,7 +19,7 @@ export const ApplicationViews = () => {
                     <CustomerProvider>
                         <EmployeeProvider>
 
-                            <Route exact path="/">
+                            <Route exact path="/locations">
                                 <LocationList />
                             </Route>
                             <Route path="/products">
@@ -35,7 +36,11 @@ export const ApplicationViews = () => {
                             <Route exact path="/employees/create">
                                 <EmployeeForm />
                             </Route>
-
+                            <Route path="/employees/detail/:employeeId(\d+)">
+                                {/*(\d+) is regex to match only a digit. The
+                         `:employeeId` must be a interger.*/}
+                                <EmployeeDetail />
+                            </Route>
                         </EmployeeProvider>
                     </CustomerProvider>
                 </ProductProvider>
