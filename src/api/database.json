@@ -95,6 +95,11 @@
     {
       "id": 2,
       "name": "John Johnson"
+    },
+    {
+      "id": 3,
+      "name": "Danny Barker",
+      "email": "11@mail.com"
     }
   ]
 }
