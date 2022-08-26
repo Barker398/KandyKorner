@@ -65,7 +65,7 @@
       "id": 3
     },
     {
-      "name": "Kaylis ",
+      "name": "Rolo Barker",
       "locationId": 2,
       "manager": "False",
       "fulltime": "",
@@ -95,6 +95,13 @@
     {
       "id": 2,
       "name": "John Johnson"
+    }
+  ],
+  "customerCandy": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1
     }
   ]
 }
