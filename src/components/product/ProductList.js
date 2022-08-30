@@ -29,7 +29,7 @@ export const ProductList = () => {
                                 Candy Type: {product.productType.productCatagory}
                             </div>
                             <button className="buy_candy" onClick={
-                                () => history.push("/myOrders")}>
+                                () => history.push("/MyOrders")}>
                                 Purchase
                             </button>
                         </div>
