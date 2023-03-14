@@ -17,9 +17,9 @@ export const ProductTypeList = () => {
                 productTypes.map(productType => {
                     return (
                         <div className="productType" key={productType.id} id={`productType--${productType.id}`}>
-                        <div className="productType__productCatagory">
-                            Catagory: { productType.productCatagory}
-                        </div>
+                            <div className="productType__productCatagory">
+                                Catagory: {productType.productCatagory}
+                            </div>
                         </div>
                     )
                 })

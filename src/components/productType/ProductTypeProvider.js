@@ -7,8 +7,8 @@ export const ProductTypeProvider = (props) => {
 
     const getProductTypes = () => {
         return fetch("http://localhost:8088/productTypes")
-        .then(res => res.json())
-        .then(setProductTypes)
+            .then(res => res.json())
+            .then(setProductTypes)
     }
 
     const addProductType = productTypeObj => {
@@ -19,7 +19,7 @@ export const ProductTypeProvider = (props) => {
             },
             body: JSON.stringify(productTypeObj)
         })
-        .then(getProductTypes)
+            .then(getProductTypes)
     }
     return (
         <ProductTypeContext.Provider value={{
