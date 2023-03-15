@@ -7,8 +7,8 @@ export const LocationProvider = (props) => {
 
     const getLocations = () => {
         return fetch("http://localhost:8088/locations")
-        .then(res => res.json())
-        .then(setLocations)
+            .then(res => res.json())
+            .then(setLocations)
     }
 
     const addLocation = locationObj => {
@@ -19,7 +19,7 @@ export const LocationProvider = (props) => {
             },
             body: JSON.stringify(locationObj)
         })
-        .then(getLocations)
+            .then(getLocations)
     }
 
     return (

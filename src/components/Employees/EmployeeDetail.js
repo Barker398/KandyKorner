@@ -19,7 +19,7 @@ export const EmployeeDetail = () => {
         const thisEmployee = employees.find(e => e.id === parseInt(employeeId)) || { employee: {} }
         setEmployee(thisEmployee)
     }, [employeeId])
-    
+
     // const handleRemove = () => {
     //     removeEmployee(employee.id)
     //     .then(() => {
@@ -29,22 +29,22 @@ export const EmployeeDetail = () => {
 
     const handleFire = () => {
         fireEmployee(employee.id)
-          .then(() => {
-            history.push("/employees")
-          })
-      }
+            .then(() => {
+                history.push("/employees")
+            })
+    }
 
     return (
         <>
-         {/* <button onClick={handleRemove}>
+            {/* <button onClick={handleRemove}>
              Fire Employee
              </button> */}
-             <button onClick={handleFire}>Fire Employee</button>
-       <section className="employee">
-            <h3 className="employee__name">{employee.name}</h3>
-            <div className="employee__location">Location: {employee.location.name}
-            </div>
-        </section>
+            <button onClick={handleFire}>Fire Employee</button>
+            <section className="employee">
+                <h3 className="employee__name">{employee.name}</h3>
+                <div className="employee__location">Location: {employee.location.name}
+                </div>
+            </section>
         </>
     )
 }
