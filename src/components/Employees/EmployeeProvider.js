@@ -7,8 +7,8 @@ export const EmployeeProvider = (props) => {
 
     const getEmployees = () => {
         return fetch("http://localhost:8088/employees?_expand=location")
-        .then(res => res.json())
-        .then(setEmployees)
+            .then(res => res.json())
+            .then(setEmployees)
     }
 
     const addEmployee = employeeObj => {
@@ -19,7 +19,7 @@ export const EmployeeProvider = (props) => {
             },
             body: JSON.stringify(employeeObj)
         })
-        .then(getEmployees)   
+            .then(getEmployees)
     }
 
     // const removeEmployee = employeeId => {

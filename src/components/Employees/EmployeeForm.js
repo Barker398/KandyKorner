@@ -21,7 +21,7 @@ export const EmployeeForm = () => {
     manager: "",
     fulltime: "",
     hourlyRate: ""
-    
+
   });
 
   const history = useHistory();
@@ -49,14 +49,14 @@ export const EmployeeForm = () => {
   }
 
   const handleClickSaveEmployee = (event) => {
-    event.preventDefault() 
+    event.preventDefault()
     const locationId = parseInt(employee.locationId)
     const employeeId = parseInt(employee.employeeId)
 
     if (locationId === 0 || employeeId === 0) {
       window.alert("Please select a location and a employee")
     } else {
-      
+
 
       const newEmployee = {
         name: employee.name,
@@ -100,7 +100,7 @@ export const EmployeeForm = () => {
           <input type="value" id="hourlyRate" required autoFocus className="form-control" placeholder="Employee hourlyRate" value={employee.hourlyRate} onChange={handleControlledInputChange} />
         </div>
       </fieldset>
-  
+
       <fieldset>
         <div className="form-group">
           <label htmlFor="location">Assign to location: </label>
@@ -116,7 +116,7 @@ export const EmployeeForm = () => {
       </fieldset>
       <button className="btn btn-primary" onClick={handleClickSaveEmployee}>
         Save Employee
-          </button>
+      </button>
     </form>
   )
 }

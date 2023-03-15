@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from "react"
-import { LocationContext } from "./LocationProvider" 
+import { LocationContext } from "./LocationProvider"
 import "./Location.css"
 
 export const LocationList = () => {
-    const{ locations, getLocations } = useContext(LocationContext)
+    const { locations, getLocations } = useContext(LocationContext)
 
     useEffect(() => {
         console.log("LocationList: useEffect - getLocations")
@@ -16,14 +16,14 @@ export const LocationList = () => {
                 locations.map(location => {
                     return (
                         <div className="location" key={location.id} id={`location--${location.id}`}>
-                        <div className="location__address">
-                            Location: { location.address }
-                            </div> 
+                            <div className="location__address">
+                                Location: {location.address}
+                            </div>
                             <div className="location__squarefootage">
-                                Size: { location.squareFootage }
+                                Size: {location.squareFootage}
                             </div>
                             <div className="location__handicap">
-                                handicap: { location.handicap }
+                                handicap: {location.handicap}
                             </div>
                         </div>
                     )

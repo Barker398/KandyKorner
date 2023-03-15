@@ -22,32 +22,32 @@ export const EmployeeList = () => {
                 New Employee
             </button>
 
-        <div className="employees">
-            {
-                employees.map(employee => {
-                    return (
-                        <div className="employee" key={employee.id} id={`employee--${employee.id}`}>
-                            <div className="employee__name">
-                                Name: { employee.name }
+            <div className="employees">
+                {
+                    employees.map(employee => {
+                        return (
+                            <div className="employee" key={employee.id} id={`employee--${employee.id}`}>
+                                <div className="employee__name">
+                                    Name: {employee.name}
+                                </div>
+                                <div className="employee__location">
+                                    Location: {employee.location.address}
+                                </div>
+                                <div className="employee__manager">
+                                    Manager: {employee.manager}
+                                </div>
+                                <div className="employee__hours">
+                                    Schedule: {employee.fullTime}
+                                </div>
+                                <div className="employee__hourlyRate">
+                                    Hourly rate: {employee.hourlyRate}
+                                </div>
+                                <button>FIRE EMPLOYEE</button>
                             </div>
-                            <div className="employee__location">
-                                Location: { employee.location.address }
-                            </div>
-                            <div className="employee__manager">
-                                Manager: { employee.manager }
-                        </div>
-                        <div className="employee__hours">
-                            Schedule: { employee.fullTime }
-                        </div>
-                        <div className="employee__hourlyRate">
-                            Hourly rate: { employee.hourlyRate }
-                        </div>
-                        <button>FIRE EMPLOYEE</button>
-                        </div>
-                    )
-                })
-            }
-        </div>
+                        )
+                    })
+                }
+            </div>
         </>
     )
 }
