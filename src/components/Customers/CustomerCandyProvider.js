@@ -7,8 +7,8 @@ export const CustomerCandyProvider = (props) => {
 
     const getCustomerCandys = () => {
         return fetch("http://localhost:8088/myOrders")
-        .then(res => res.json())
-        .then(setCustomerCandys)
+            .then(res => res.json())
+            .then(setCustomerCandys)
     }
 
     const addCustomerCandy = customerCandyId => {
@@ -19,12 +19,12 @@ export const CustomerCandyProvider = (props) => {
             },
             body: JSON.stringify(customerCandyId)
         })
-        .then(getCustomerCandys)
+            .then(getCustomerCandys)
     }
-    
+
     const getCustomerCandysById = (customerCandyId) => {
         return fetch(`http://localhost:8088/customerCandys/${customerCandyId}`)
-        .then(res => res.json())
+            .then(res => res.json())
     }
     return (
         <CustomerCandyContext.Provider value={{
