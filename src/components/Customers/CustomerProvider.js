@@ -7,8 +7,8 @@ export const CustomerProvider = (props) => {
 
     const getCustomers = () => {
         return fetch("http://localhost:8088/customers")
-        .then(res => res.json())
-        .then(setCustomers)
+            .then(res => res.json())
+            .then(setCustomers)
     }
 
     const addCustomer = customerObj => {
@@ -19,7 +19,7 @@ export const CustomerProvider = (props) => {
             },
             body: JSON.stringify(customerObj)
         })
-        .then(getCustomers)
+            .then(getCustomers)
     }
 
     return (
