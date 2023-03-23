@@ -95,6 +95,22 @@
     {
       "id": 2,
       "name": "John Johnson"
+    },
+    {
+      "id": 3,
+      "name": "Spuddy"
+    },
+    {
+      "id": 4,
+      "name": "Thomas Hardin"
+    },
+    {
+      "id": 5,
+      "name": "Steve Parker"
+    },
+    {
+      "id": 6,
+      "name": "Hunter Atkins"
     }
   ],
   "customerCandy": [
