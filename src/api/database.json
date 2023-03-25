@@ -17,6 +17,18 @@
       "productName": "Bazooka",
       "price": 3,
       "productTypeId": 2
+    },
+    {
+      "id": 4,
+      "productName": "Gummy Bears",
+      "price": 2.35,
+      "productTypeId": 4
+    },
+    {
+      "id": 5,
+      "productName": "Pixy Sticks",
+      "price": 1.15,
+      "productTypeId": 5
     }
   ],
   "locations": [
@@ -85,6 +97,14 @@
     {
       "id": 3,
       "productCatagory": "Sodas"
+    },
+    {
+      "id": 4,
+      "productCatagory": "Soft candy"
+    },
+    {
+      "id": 5,
+      "productCatagory": "Powder candy"
     }
   ],
   "customers": [
