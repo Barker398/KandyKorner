@@ -46,6 +46,24 @@
     },
     {
       "id": 3,
+      "address": "76 Buttermilk Rd",
+      "squareFootage": "1845",
+      "handicap": "false"
+    },
+    {
+      "id": 4,
+      "address": "3065 Choclate Court",
+      "squareFootage": "1623",
+      "handicap": "false"
+    },
+    {
+      "id": 5,
+      "address": "459 Pixie Circle",
+      "squareFootage": "1087",
+      "handicap": "true"
+    },
+    {
+      "id": 6,
       "address": "9008 Legion Road",
       "squareFootage": "1722",
       "handicap": "false"
