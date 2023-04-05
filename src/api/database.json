@@ -74,33 +74,41 @@
       "id": 1,
       "name": "Izzie Barker",
       "locationId": 1,
-      "manager": true,
-      "fullTime": false,
+      "manager": false,
+      "fullTime": true,
       "hourlyRate": 17
     },
     {
+      "id": 2,
       "name": "Tom Jenkins",
       "locationId": 2,
-      "manager": "True",
-      "fulltime": "",
-      "hourlyRate": "23.00",
-      "id": 2
+      "manager": true,
+      "fulltime": true,
+      "hourlyRate": "23.00"
     },
     {
+      "id": 3,
       "name": "Faith Barker",
-      "locationId": 2,
-      "manager": "True",
-      "fulltime": "",
-      "hourlyRate": "23.00",
-      "id": 3
+      "locationId": 5,
+      "manager":true,
+      "fulltime": true,
+      "hourlyRate": "23.00"
     },
     {
+      "id": 4,
       "name": "Rolo Barker",
-      "locationId": 2,
-      "manager": "False",
-      "fulltime": "",
-      "hourlyRate": "23.00",
-      "id": 4
+      "locationId": 3,
+      "manager": false,
+      "fulltime": false,
+      "hourlyRate": "23.00"
+    },
+    {
+      "id": 5,
+      "name": "Rolo Barker",
+      "locationId": 6,
+      "manager": false,
+      "fulltime": false,
+      "hourlyRate": "23.00"
     }
   ],
   "productTypes": [
