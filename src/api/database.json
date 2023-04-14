@@ -90,7 +90,7 @@
       "id": 3,
       "name": "Faith Barker",
       "locationId": 5,
-      "manager":true,
+      "manager": true,
       "fulltime": true,
       "hourlyRate": "23.00"
     },
